@@ -1,0 +1,65 @@
+$white: #fafafa;
+.initial-presentation {
+  padding: 150px 0 50px 0;
+  width: 100%;
+}
+.presentation-description {
+  margin: 0 auto;
+  border: 1px solid $white;
+  min-height: 60px;
+  width: 100%;
+  text-align: start;
+  max-width: 500px;
+  position: relative;
+  padding: 10px 10px 30px 10px;
+}
+.next-button {
+  position: absolute;
+  bottom: -0;
+  color: white;
+  right: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  letter-spacing: 2px;
+}
+.initial-presentation span {
+  color: #fafafa;
+  outline: none;
+  letter-spacing: 1px;
+  line-height: 30px;
+  font-size: 17px;
+}
+.user-image {
+  height: 300px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("../assets/images/fotoperfil-8bit.jpg");
+  animation-duration: 4s;
+  border-radius: 100%;
+  margin: 0 auto;
+  transition: all 0.4s;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+  .initial-presentation {
+    padding: 100px 0 50px 0;
+  }
+  .presentation-description {
+    max-width: 90%;
+  }
+}
+
+@keyframes imageTo8Bit {
+  from {
+    background-image: url("../assets/images/foto-perfil.jpg");
+  }
+  to {
+    background-image: url("../assets/images/fotoperfil-8bit.jpg");
+  }
+}

@@ -1,0 +1,22 @@
+$black: #0c0c0c;
+$grey: #303030;
+$white: #fafafa;
+body {
+  background-color: $black;
+}
+h1 {
+  color: $white;
+  font-family: "RocknRoll One", sans-serif;
+}
+.background-black {
+  background-color: $black;
+}
+.black {
+  color: $black;
+}
+.bit-text {
+  font-family: "DotGothic16", sans-serif;
+}
+.Typist .Cursor {
+  color: orange !important;
+}
